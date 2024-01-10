@@ -1,8 +1,7 @@
 <template>
   <svg xmlns="http://www.w3.org/2000/svg"
        viewBox="0 -960 960 960"
-       class="fill-lightTextColor dark:fill-darkTextColor saturate-50"
-       :class="props.class"
+       class="fill-lightBG saturate-50"
        :width="props.width"
        :height="props.height"
   >
@@ -17,7 +16,6 @@ import {UseSvgIcon} from "@/stores/icons";
 import {Icons} from "@/types";
 
 type propTypes = {
-  class?: string
   width?: string
   height?: string
   name: string
