@@ -1,8 +1,52 @@
 {
-  "hash": "281f5057",
+  "hash": "1939f947",
   "configHash": "62033601",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "c336e2c8",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "1948feea",
+  "browserHash": "1acbded2",
+  "optimized": {
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "626a70d6",
+      "needsInterop": false
+    },
+    "pinia": {
+      "src": "../../node_modules/pinia/dist/pinia.mjs",
+      "file": "pinia.js",
+      "fileHash": "bbc89d34",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "be457097",
+      "needsInterop": false
+    },
+    "lodash/upperFirst": {
+      "src": "../../node_modules/lodash/upperFirst.js",
+      "file": "lodash_upperFirst.js",
+      "fileHash": "16e3210a",
+      "needsInterop": true
+    },
+    "lodash/camelCase": {
+      "src": "../../node_modules/lodash/camelCase.js",
+      "file": "lodash_camelCase.js",
+      "fileHash": "be184c28",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-3GOOGFKQ": {
+      "file": "chunk-3GOOGFKQ.js"
+    },
+    "chunk-WD2BNHP7": {
+      "file": "chunk-WD2BNHP7.js"
+    },
+    "chunk-NWP373XD": {
+      "file": "chunk-NWP373XD.js"
+    },
+    "chunk-Y2F7D3TJ": {
+      "file": "chunk-Y2F7D3TJ.js"
+    }
+  }
 }

@@ -5,20 +5,15 @@
     </div>
     <div class="flex items-end">
       <div class="flex flex-col mx-8 items-center text-center">
-        <span class="text-lightBG font-semibold text-lg">Enjoy Listening To Music</span>
-        <span class="mt-4 text-grayText">
-        Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit.
-        Sagittis enim purus sed phasellus.
-        Cursus ornare id scelerisque aliquam.
-      </span>
-        <button class="btn">Get Started</button>
+        <welcom-text title-color="text-lightBG"></welcom-text>
+        <button class="btn bg-mainGreen">Get Started</button>
       </div>
     </div>
   </section>
 </template>
 
-<script>
+<script setup lang="ts">
+import WelcomText from "../components/start-component/WelcomText.vue";
 
 </script>
 
