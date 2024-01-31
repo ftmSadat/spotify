@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import {defineProps, computed} from "vue";
+import {defineProps, computed, useSlots} from "vue";
 import {UseSvgIcon} from "@/stores/icons";
 import {Icons} from "@/types";
 
@@ -21,7 +21,7 @@ type propTypes = {
   name: string
 }
 const props = defineProps<propTypes>()
-
+const slots = useSlots()
 /*get user from store with filtered name */
 const iconStore = UseSvgIcon()
 const svgIcon = computed((): Icons => iconStore.Icons.find(icon => icon.name === props.name))

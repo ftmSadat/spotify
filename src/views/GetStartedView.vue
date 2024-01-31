@@ -5,15 +5,15 @@
     </div>
     <div class="flex items-end">
       <div class="flex flex-col mx-8 items-center text-center">
-        <welcom-text title-color="text-lightBG"></welcom-text>
-        <button class="btn bg-mainGreen">Get Started</button>
+        <welcome-text title-color="text-lightBG"></welcome-text>
+        <button class="my-10 btn bg-mainGreen">Get Started</button>
       </div>
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import WelcomText from "../components/start-component/WelcomText.vue";
+import WelcomeText from "../components/start-component/WelcomeText.vue";
 
 </script>
 
