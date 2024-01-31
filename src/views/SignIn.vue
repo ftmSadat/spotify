@@ -9,15 +9,12 @@
     <div
         class="mx-8 sm:mx-20 mt-8 h-full "
     >
-      <form
-          class="flex flex-col justify-between w-ful h-1/2"
-      >
-       <div>
-         <sign-in-form v-if="isRegister"></sign-in-form>
-         <div v-else></div>
-
-       </div>
-        <div class="">
+      <form class="flex flex-col justify-between w-ful h-1/2">
+        <div>
+          <sign-in-form v-if="isSignIn"></sign-in-form>
+          <register-form v-else></register-form>
+        </div>
+        <div>
           <div class="flex flex-col my-3">
             <button class="btn bg-mainGreen !rounded-3xl">{{ textSubmitBtn }}</button>
           </div>
@@ -54,6 +51,7 @@ import {useRoute} from "vue-router";
 import InLineLogoAndBack from "@/components/start-component/InLineLogoAndBack.vue"
 import RegisterHeader from "@/components/start-component/RegisterHeader.vue";
 import SignInForm from "@/components/start-component/SignInForm.vue";
+import RegisterForm from "@/components/start-component/RegisterForm.vue";
 
 const route = useRoute()
 const isSignIn = ref<boolean>(true)
