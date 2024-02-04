@@ -10,7 +10,7 @@
                  bg-zinc-200 dark:bg-zinc-800">
         <base-svg-icon
             name="arrow-left"
-            class="fill-darkBG dark:fill-lightBG size-4"
+            class="fill-dark dark:fill-light size-4"
         ></base-svg-icon>
       </button>
     </div>
@@ -19,8 +19,8 @@
       <base-logo></base-logo>
       <welcome-text class="mt-10"></welcome-text>
       <div class="flex justify-between w-full my-10">
-        <button class="btn bg-mainGreen  mr-2 ml-4">dfs</button>
-        <button class="btn !text-darkBG dark:!text-lightBG mr-4">dfs</button>
+        <button class="btn bg-main-green  mr-2 ml-4">dfs</button>
+        <button class="btn !text-dark dark:!text-light mr-4">dfs</button>
       </div>
     </div>
   </section>

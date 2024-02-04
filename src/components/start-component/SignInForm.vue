@@ -21,7 +21,7 @@
     <router-link
         to="#"
         class="text-sm font-semibold opacity-80 hover:opacity-90
-                   dark:text-lightBG/40 dark:hover:text-lightBG/50
+                   dark:text-light/40 dark:hover:text-light/50
                    ">Recovery Password
     </router-link>
   </div>

@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-col text-center">
-      <span class="dark:text-lightBG text-xl font-semibold">
+      <span class="dark:text-light text-xl font-semibold">
      {{ title }}
       </span>
-    <span class="dark:text-lightBG/70 mt-2">
+    <span class="dark:text-light/70 mt-2">
         If you need any support
-        <router-link class="text-mainGreen" :to="{name:routeName}">Click Here</router-link>
+        <router-link class="text-main-green" :to="{name:routeName}">Click Here</router-link>
       </span>
   </div>
 </template>

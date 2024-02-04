@@ -1,7 +1,7 @@
 <template>
   <svg xmlns="http://www.w3.org/2000/svg"
        viewBox="0 -960 960 960"
-       class="fill-lightBG saturate-50"
+       class="fill-light saturate-50"
        :width="props.width"
        :height="props.height"
   >

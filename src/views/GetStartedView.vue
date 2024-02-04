@@ -5,8 +5,8 @@
     </div>
     <div class="flex items-end">
       <div class="flex flex-col mx-8 items-center text-center">
-        <welcome-text title-color="text-lightBG"></welcome-text>
-        <button class="my-10 btn bg-mainGreen">Get Started</button>
+        <welcome-text title-color="text-light"></welcome-text>
+        <button class="my-10 btn bg-main-green">Get Started</button>
       </div>
     </div>
   </section>

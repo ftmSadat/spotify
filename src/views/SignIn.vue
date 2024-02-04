@@ -16,7 +16,7 @@
         </div>
         <div>
           <div class="flex flex-col my-3">
-            <button class="btn bg-mainGreen !rounded-3xl">{{ textSubmitBtn }}</button>
+            <button class="btn bg-main-green !rounded-3xl">{{ textSubmitBtn }}</button>
           </div>
           <div class="flex flex-col">
             <base-text-in-middle-line text="Or"></base-text-in-middle-line>
@@ -34,7 +34,7 @@
                     class="w-full">
               </button>
             </div>
-            <span class="mt-4 font-medium text-sm text-center dark:text-lightBG/70">
+            <span class="mt-4 font-medium text-sm text-center dark:text-light/70">
           {{ textQuestion }}
           <router-link class="text-blue-500" :to="{name:''}">{{ textLinkFooter }}</router-link>
       </span>

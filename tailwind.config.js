@@ -18,10 +18,12 @@ export default {
         },
         colors: {
             ...colors,
-            "darkBG": "#1C1B1B",
-            "lightBG": "#F2F2F2",
-            "grayText": "#797979",
-            "mainGreen": "#42C83C"
+            "dark": "#1C1B1B",
+            "light": "#F2F2F2",
+            "gray": {
+                "550": "#797979"
+            },
+            "main-green": "#42C83C"
         }
     },
     plugins: [],

@@ -8,13 +8,13 @@ body {
 
 #app {
     @apply max-w-screen-sm w-full h-screen
-    bg-lightBG dark:bg-darkBG select-none
-    dark:text-lightBG
+    bg-light dark:bg-dark select-none
+    dark:text-light
 }
 
 input{
     @apply p-2 rounded-2xl
-    bg-lightBG dark:bg-darkBG
+    bg-light dark:bg-dark
     text-zinc-500 dark:text-zinc-600
     border border-zinc-300 dark:border-zinc-700
     transition duration-300 ease-in-out
@@ -32,6 +32,6 @@ input{
 .circleBtn {
     @apply rounded-full p-2 size-[73]
     transition duration-150 ease-in-out
-    hover:border-b-4 hover:border-b-mainGreen
-    focus:border-b-mainGreen focus:border-b-mainGreen
+    hover:border-b-4 hover:border-b-main-green
+    focus:border-b-main-green focus:border-b-main-green
 }
